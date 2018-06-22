@@ -6,9 +6,9 @@
   board.each do |space| 
   if space == "X" || space == "O" 
     puts #{counter}
-counter = counter + 1
-binding.pry
+counter += 1
  end
 end
+counter
 end
   
