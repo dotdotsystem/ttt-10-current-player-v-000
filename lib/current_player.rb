@@ -11,6 +11,6 @@ counter
 end
 
 def current_player(board)
-turn_count = gets.chomp!
-if 
+turn_count(board) % 2 == 0? "X" : "O"
+end 
   
