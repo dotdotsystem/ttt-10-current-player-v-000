@@ -7,7 +7,7 @@ board = ["O", " ", " ", " ", "X", " ", " ", " ", "X"]
   counter = 1  
   if space == "X" || space == "O" 
     return #{counter}  
-  counter = counter + 1
+counter += 1
  end
 end
 end
