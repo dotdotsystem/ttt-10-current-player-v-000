@@ -7,7 +7,7 @@
   counter = 0  
    space == "X" && space == "O" 
     return #{counter}  
-  counter + 1
+  counter = counter + 1
  end
 end
 end
