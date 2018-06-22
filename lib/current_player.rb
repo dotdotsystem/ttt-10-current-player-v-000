@@ -7,6 +7,7 @@
   if space == "X" || space == "O" 
     puts #{counter}
 counter = counter + 1
+binding.pry
  end
 end
 end
